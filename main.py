@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from pysondb import db
 from db import DataHandler
 import datetime
 from pymongo import MongoClient
