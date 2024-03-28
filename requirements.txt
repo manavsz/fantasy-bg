@@ -1,0 +1,9 @@
+uvicorn==0.21.1
+starlette==0.26.1
+requests==2.27.1
+pydantic==1.10.6
+pydantic_core==2.4.0
+fastapi==0.94.1
+pymongo==4.3.3
+fastapi-utils==0.2.1
+pytz==2022.7.1
