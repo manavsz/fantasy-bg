@@ -29,7 +29,14 @@ end = datetime.datetime(2024,1,1,23,59,0).time()
 def updateDB():
 
     print("repeat function active")
-    now = datetime.datetime.now(tz).time()
+    dt = datetime.datetime.now(tz)
+    now = dt.time()
+    day = dt.weekday()
+
+    if day == 5 or day == 6:
+        start = datetime.datetime(2024,1,1,15,30,0).time()
+    else:
+        start = datetime.datetime(2024,1,1,19,30,0).time()
 
     if  start <= now and now <= end:
         print('update requested')
