@@ -33,7 +33,7 @@ class My11Circle:
     def get_otp(self):
 
         otp_payload = {
-            "loginid": "fantasynag@outlook.com", 
+            "loginid": "ipl17online@outlook.com", 
             "deviceId": "5bc3a16e-dea5-4385-814a-9be4e628309f"
         }
 
@@ -50,7 +50,7 @@ class My11Circle:
     def login(self, otp_data):
 
         login_payload = {
-            "loginid": "fantasynag@outlook.com", 
+            "loginid": "ipl17online@outlook.com", 
             "deviceId": "5bc3a16e-dea5-4385-814a-9be4e628309f",
             "deviceName": "Linux",
             "reasonCode": otp_data["reasonCode"],

@@ -40,6 +40,6 @@ def updateDB():
 
     if  start <= now and now <= end:
         print('update requested')
-        # mc.updateMatches()
+        mc.updateMatches()
     
     pass
